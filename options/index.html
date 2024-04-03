@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Select or dropdown menus do not require the form tag to work but still requires a name and ID-->
+    <select id="simple" name="simple">
+        <option>Banana</option>
+        <!-- The selected tag is makes the default drop down menu Choice -->
+        <option selected>Cherry</option>
+        <option>Lemon</option>
+      </select>
+      <!-- This is cool -->
+      <select id="groups" name="groups">
+        <optgroup label="fruits">
+          <option>Banana</option>
+          <option selected>Cherry</option>
+          <option>Lemon</option>
+        </optgroup>
+        <optgroup label="vegetables">
+          <option>Carrot</option>
+          <option>Eggplant</option>
+          <option>Potato</option>
+        </optgroup>
+      </select>
+      <!-- Good to know -->
+      <label for="myFruit">What's your favorite fruit?</label>
+    <input type="text" name="myFruit" id="myFruit" list="mySuggestion" />
+    <datalist id="mySuggestion">
+    <option>Apple</option>
+     <option>Banana</option>
+     <option>Blackberry</option>
+     <option>Blueberry</option>
+      <option>Lemon</option>
+     <option>Lychee</option>
+     <option>Peach</option>
+     <option>Pear</option>
+</datalist>
+
+<meter min="0" max="100" value="75" low="33" high="66" optimum="75">0</meter>
+
+<progress max="100" value="75">75/100</progress>
+
+
+</body>
+</html>
